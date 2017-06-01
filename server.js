@@ -19,7 +19,7 @@ app.configure(function () {
   Initialize the Server
 */
 
-var server = http.createServer(app).listen(process.env.OPENSHIFT_NODEJS_PORT || 3000);
+var server = http.createServer(app).listen(8080);
 
 /*
   Load Main (Loads Socket.io & IRC)
